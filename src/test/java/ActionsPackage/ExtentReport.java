@@ -22,7 +22,6 @@ public class ExtentReport {
 	
 	public static ExtentTest eReportStart(String ExtTest){
 		
-		System.out.println("Inside the start");
 		System.out.println("the object " + report.toString());
 		logger=report.startTest(ExtTest);
 		return logger;

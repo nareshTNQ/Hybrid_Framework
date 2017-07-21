@@ -49,7 +49,7 @@ public class TestConfig {
 	
 	@BeforeTest
 	public void init() {
-		report1 = new ExtentReports("D:\\SeleniumWorkspace\\com.KF\\ExtentReport\\test.html", true);
+		report1 = new ExtentReports("./ExtentReport/test.html", true);
 	}
 	
     WebDriver driver;
@@ -103,7 +103,7 @@ public class TestConfig {
             		 
             		 if(actions.equalsIgnoreCase("startBrowser")){
             			 
- /*           				ChromeOptions options = new ChromeOptions();
+            				ChromeOptions options = new ChromeOptions();
             				options.addArguments("--start-maximized");
 
             				Map<String, Object> prefs = new HashMap<String, Object>();
@@ -112,7 +112,7 @@ public class TestConfig {
             				options.setExperimentalOption("prefs", prefs);
 
             				DesiredCapabilities cap = DesiredCapabilities.chrome();
-            				cap.setCapability(ChromeOptions.CAPABILITY, options);*/	
+            				cap.setCapability(ChromeOptions.CAPABILITY, options);	
             				ChromeDriverManager.getInstance().setup();            			 
              			    driver = new ChromeDriver();
              			    logger1.log(LogStatus.INFO, description);

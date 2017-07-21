@@ -19,7 +19,7 @@ public class ExcelData {
 	public ExcelData() {
 		
 		try {
-			wb = new XSSFWorkbook("C:/Users/9395/Desktop/Automation/HybridFramework/testFrame.xlsx");
+			wb = new XSSFWorkbook("./TestData/testFrame.xlsx");
 		} catch (Exception e) {
 			System.out.println("Unable to load excel file");
 			System.out.println(e.getMessage());

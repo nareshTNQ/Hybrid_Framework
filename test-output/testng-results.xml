@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="54044" started-at="2017-07-20T11:03:35Z" finished-at="2017-07-20T11:04:29Z">
+  <suite name="Default suite" duration-ms="49220" started-at="2017-07-21T12:56:31Z" finished-at="2017-07-21T12:57:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="54044" started-at="2017-07-20T11:03:35Z" finished-at="2017-07-20T11:04:29Z">
+    <test name="Default test" duration-ms="49220" started-at="2017-07-21T12:56:31Z" finished-at="2017-07-21T12:57:20Z">
       <class name="ExcelProvider.TestConfig">
-        <test-method status="PASS" signature="init()[pri:0, instance:ExcelProvider.TestConfig@7cd62f43]" name="init" is-config="true" duration-ms="264" started-at="2017-07-20T16:33:35Z" finished-at="2017-07-20T16:33:35Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ExcelProvider.TestConfig@685cb137]" name="init" is-config="true" duration-ms="268" started-at="2017-07-21T18:26:31Z" finished-at="2017-07-21T18:26:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="startTest()[pri:0, instance:ExcelProvider.TestConfig@7cd62f43]" name="startTest" duration-ms="53760" started-at="2017-07-20T16:33:35Z" finished-at="2017-07-20T16:34:29Z">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:ExcelProvider.TestConfig@685cb137]" name="startTest" duration-ms="48936" started-at="2017-07-21T18:26:31Z" finished-at="2017-07-21T18:27:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
